@@ -42,7 +42,7 @@ Before you begin, ensure you have the following installed:
 
 2. Install dependencies:
    ```bash
-   pip install -r requirements.txt
+   pip install opencv-python
    ```
 
 3. Build the ROS 2 package:
