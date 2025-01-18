@@ -122,7 +122,7 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 Have questions or suggestions? Feel free to reach out:
 - **GitHub**: [i880](https://github.com/i880)
-- **Email**: your-email@example.com
+- **Email**: ibrahimjebar255@gmail.com
 
 ---
 
