@@ -1,0 +1,47 @@
+[1.992s] Invoking command in '/home/i880/programming/ros2/object_detection_ros2': PYTHONPATH=/home/i880/programming/ros2/object_detection_ros2/build/object_detection_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/i880/programming/ros2/object_detection_ros2/install/object_detection_ros2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/object_detection_ros2 build --build-base /home/i880/programming/ros2/object_detection_ros2/build/object_detection_ros2/build install --record /home/i880/programming/ros2/object_detection_ros2/build/object_detection_ros2/install.log --single-version-externally-managed install_data
+[2.666s] running egg_info
+[2.666s] creating build/object_detection_ros2/object_detection_ros2.egg-info
+[2.716s] writing build/object_detection_ros2/object_detection_ros2.egg-info/PKG-INFO
+[2.717s] writing dependency_links to build/object_detection_ros2/object_detection_ros2.egg-info/dependency_links.txt
+[2.717s] writing entry points to build/object_detection_ros2/object_detection_ros2.egg-info/entry_points.txt
+[2.717s] writing requirements to build/object_detection_ros2/object_detection_ros2.egg-info/requires.txt
+[2.718s] writing top-level names to build/object_detection_ros2/object_detection_ros2.egg-info/top_level.txt
+[2.718s] writing manifest file 'build/object_detection_ros2/object_detection_ros2.egg-info/SOURCES.txt'
+[2.818s] reading manifest file 'build/object_detection_ros2/object_detection_ros2.egg-info/SOURCES.txt'
+[2.819s] writing manifest file 'build/object_detection_ros2/object_detection_ros2.egg-info/SOURCES.txt'
+[2.820s] running build
+[2.820s] running build_py
+[2.820s] creating /home/i880/programming/ros2/object_detection_ros2/build/object_detection_ros2/build
+[2.820s] creating /home/i880/programming/ros2/object_detection_ros2/build/object_detection_ros2/build/lib
+[2.821s] creating /home/i880/programming/ros2/object_detection_ros2/build/object_detection_ros2/build/lib/object_detection_ros2
+[2.821s] copying object_detection_ros2/object_detection_node.py -> /home/i880/programming/ros2/object_detection_ros2/build/object_detection_ros2/build/lib/object_detection_ros2
+[2.821s] copying object_detection_ros2/camera_node.py -> /home/i880/programming/ros2/object_detection_ros2/build/object_detection_ros2/build/lib/object_detection_ros2
+[2.821s] copying object_detection_ros2/__init__.py -> /home/i880/programming/ros2/object_detection_ros2/build/object_detection_ros2/build/lib/object_detection_ros2
+[2.822s] running install
+[2.833s] running install_lib
+[2.882s] creating /home/i880/programming/ros2/object_detection_ros2/install/object_detection_ros2/lib/python3.12/site-packages/object_detection_ros2
+[2.882s] copying /home/i880/programming/ros2/object_detection_ros2/build/object_detection_ros2/build/lib/object_detection_ros2/object_detection_node.py -> /home/i880/programming/ros2/object_detection_ros2/install/object_detection_ros2/lib/python3.12/site-packages/object_detection_ros2
+[2.882s] copying /home/i880/programming/ros2/object_detection_ros2/build/object_detection_ros2/build/lib/object_detection_ros2/camera_node.py -> /home/i880/programming/ros2/object_detection_ros2/install/object_detection_ros2/lib/python3.12/site-packages/object_detection_ros2
+[2.883s] copying /home/i880/programming/ros2/object_detection_ros2/build/object_detection_ros2/build/lib/object_detection_ros2/__init__.py -> /home/i880/programming/ros2/object_detection_ros2/install/object_detection_ros2/lib/python3.12/site-packages/object_detection_ros2
+[2.884s] byte-compiling /home/i880/programming/ros2/object_detection_ros2/install/object_detection_ros2/lib/python3.12/site-packages/object_detection_ros2/object_detection_node.py to object_detection_node.cpython-312.pyc
+[2.886s] byte-compiling /home/i880/programming/ros2/object_detection_ros2/install/object_detection_ros2/lib/python3.12/site-packages/object_detection_ros2/camera_node.py to camera_node.cpython-312.pyc
+[2.887s] byte-compiling /home/i880/programming/ros2/object_detection_ros2/install/object_detection_ros2/lib/python3.12/site-packages/object_detection_ros2/__init__.py to __init__.cpython-312.pyc
+[2.887s] running install_data
+[2.888s] creating /home/i880/programming/ros2/object_detection_ros2/install/object_detection_ros2/share/ament_index
+[2.888s] creating /home/i880/programming/ros2/object_detection_ros2/install/object_detection_ros2/share/ament_index/resource_index
+[2.888s] creating /home/i880/programming/ros2/object_detection_ros2/install/object_detection_ros2/share/ament_index/resource_index/packages
+[2.889s] copying resource/object_detection_ros2 -> /home/i880/programming/ros2/object_detection_ros2/install/object_detection_ros2/share/ament_index/resource_index/packages
+[2.889s] copying package.xml -> /home/i880/programming/ros2/object_detection_ros2/install/object_detection_ros2/share/object_detection_ros2
+[2.889s] creating /home/i880/programming/ros2/object_detection_ros2/install/object_detection_ros2/share/object_detection_ros2/models
+[2.889s] copying models/yolov3-tiny.cfg -> /home/i880/programming/ros2/object_detection_ros2/install/object_detection_ros2/share/object_detection_ros2/models
+[2.890s] copying models/coco.names -> /home/i880/programming/ros2/object_detection_ros2/install/object_detection_ros2/share/object_detection_ros2/models
+[2.890s] copying models/yolov3-tiny.weights -> /home/i880/programming/ros2/object_detection_ros2/install/object_detection_ros2/share/object_detection_ros2/models
+[2.937s] creating /home/i880/programming/ros2/object_detection_ros2/install/object_detection_ros2/share/object_detection_ros2/launch
+[2.938s] copying launch/object_detection.launch.py -> /home/i880/programming/ros2/object_detection_ros2/install/object_detection_ros2/share/object_detection_ros2/launch
+[2.938s] running install_egg_info
+[2.997s] Copying build/object_detection_ros2/object_detection_ros2.egg-info to /home/i880/programming/ros2/object_detection_ros2/install/object_detection_ros2/lib/python3.12/site-packages/object_detection_ros2-0.0.0-py3.12.egg-info
+[2.998s] running install_scripts
+[3.483s] Installing camera_node script to /home/i880/programming/ros2/object_detection_ros2/install/object_detection_ros2/lib/object_detection_ros2
+[3.484s] Installing object_detection_node script to /home/i880/programming/ros2/object_detection_ros2/install/object_detection_ros2/lib/object_detection_ros2
+[3.484s] writing list of installed files to '/home/i880/programming/ros2/object_detection_ros2/build/object_detection_ros2/install.log'
+[3.580s] Invoked command in '/home/i880/programming/ros2/object_detection_ros2' returned '0': PYTHONPATH=/home/i880/programming/ros2/object_detection_ros2/build/object_detection_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/i880/programming/ros2/object_detection_ros2/install/object_detection_ros2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/object_detection_ros2 build --build-base /home/i880/programming/ros2/object_detection_ros2/build/object_detection_ros2/build install --record /home/i880/programming/ros2/object_detection_ros2/build/object_detection_ros2/install.log --single-version-externally-managed install_data

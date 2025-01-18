@@ -1,0 +1,22 @@
+[4.612s] Invoking command in '/home/i880/programming/ros2/object_detection_ros2': PYTHONPATH=/home/i880/programming/ros2/object_detection_ros2/build/object_detection_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/i880/programming/ros2/object_detection_ros2/install/object_detection_ros2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/object_detection_ros2 build --build-base /home/i880/programming/ros2/object_detection_ros2/build/object_detection_ros2/build install --record /home/i880/programming/ros2/object_detection_ros2/build/object_detection_ros2/install.log --single-version-externally-managed install_data
+[5.542s] running egg_info
+[5.600s] writing build/object_detection_ros2/object_detection_ros2.egg-info/PKG-INFO
+[5.600s] writing dependency_links to build/object_detection_ros2/object_detection_ros2.egg-info/dependency_links.txt
+[5.601s] writing entry points to build/object_detection_ros2/object_detection_ros2.egg-info/entry_points.txt
+[5.602s] writing requirements to build/object_detection_ros2/object_detection_ros2.egg-info/requires.txt
+[5.602s] writing top-level names to build/object_detection_ros2/object_detection_ros2.egg-info/top_level.txt
+[5.773s] reading manifest file 'build/object_detection_ros2/object_detection_ros2.egg-info/SOURCES.txt'
+[5.776s] writing manifest file 'build/object_detection_ros2/object_detection_ros2.egg-info/SOURCES.txt'
+[5.776s] running build
+[5.777s] running build_py
+[5.777s] running install
+[5.802s] running install_lib
+[5.879s] running install_data
+[5.880s] running install_egg_info
+[5.949s] removing '/home/i880/programming/ros2/object_detection_ros2/install/object_detection_ros2/lib/python3.12/site-packages/object_detection_ros2-0.0.0-py3.12.egg-info' (and everything under it)
+[5.949s] Copying build/object_detection_ros2/object_detection_ros2.egg-info to /home/i880/programming/ros2/object_detection_ros2/install/object_detection_ros2/lib/python3.12/site-packages/object_detection_ros2-0.0.0-py3.12.egg-info
+[5.953s] running install_scripts
+[6.539s] Installing camera_node script to /home/i880/programming/ros2/object_detection_ros2/install/object_detection_ros2/lib/object_detection_ros2
+[6.539s] Installing object_detection_node script to /home/i880/programming/ros2/object_detection_ros2/install/object_detection_ros2/lib/object_detection_ros2
+[6.540s] writing list of installed files to '/home/i880/programming/ros2/object_detection_ros2/build/object_detection_ros2/install.log'
+[6.621s] Invoked command in '/home/i880/programming/ros2/object_detection_ros2' returned '0': PYTHONPATH=/home/i880/programming/ros2/object_detection_ros2/build/object_detection_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/i880/programming/ros2/object_detection_ros2/install/object_detection_ros2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/object_detection_ros2 build --build-base /home/i880/programming/ros2/object_detection_ros2/build/object_detection_ros2/build install --record /home/i880/programming/ros2/object_detection_ros2/build/object_detection_ros2/install.log --single-version-externally-managed install_data

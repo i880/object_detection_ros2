@@ -1,0 +1,25 @@
+[2.054s] Invoking command in '/home/i880/programming/ros2/object_detection_ros2': PYTHONPATH=/home/i880/programming/ros2/object_detection_ros2/build/object_detection_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/i880/programming/ros2/object_detection_ros2/install/object_detection_ros2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/object_detection_ros2 build --build-base /home/i880/programming/ros2/object_detection_ros2/build/object_detection_ros2/build install --record /home/i880/programming/ros2/object_detection_ros2/build/object_detection_ros2/install.log --single-version-externally-managed install_data
+[2.681s] running egg_info
+[2.731s] writing build/object_detection_ros2/object_detection_ros2.egg-info/PKG-INFO
+[2.732s] writing dependency_links to build/object_detection_ros2/object_detection_ros2.egg-info/dependency_links.txt
+[2.732s] writing entry points to build/object_detection_ros2/object_detection_ros2.egg-info/entry_points.txt
+[2.732s] writing requirements to build/object_detection_ros2/object_detection_ros2.egg-info/requires.txt
+[2.733s] writing top-level names to build/object_detection_ros2/object_detection_ros2.egg-info/top_level.txt
+[2.833s] reading manifest file 'build/object_detection_ros2/object_detection_ros2.egg-info/SOURCES.txt'
+[2.834s] writing manifest file 'build/object_detection_ros2/object_detection_ros2.egg-info/SOURCES.txt'
+[2.835s] running build
+[2.835s] running build_py
+[2.835s] copying object_detection_ros2/object_detection_node.py -> /home/i880/programming/ros2/object_detection_ros2/build/object_detection_ros2/build/lib/object_detection_ros2
+[2.835s] running install
+[2.847s] running install_lib
+[2.903s] copying /home/i880/programming/ros2/object_detection_ros2/build/object_detection_ros2/build/lib/object_detection_ros2/object_detection_node.py -> /home/i880/programming/ros2/object_detection_ros2/install/object_detection_ros2/lib/python3.12/site-packages/object_detection_ros2
+[2.904s] byte-compiling /home/i880/programming/ros2/object_detection_ros2/install/object_detection_ros2/lib/python3.12/site-packages/object_detection_ros2/object_detection_node.py to object_detection_node.cpython-312.pyc
+[2.906s] running install_data
+[2.907s] running install_egg_info
+[2.969s] removing '/home/i880/programming/ros2/object_detection_ros2/install/object_detection_ros2/lib/python3.12/site-packages/object_detection_ros2-0.0.0-py3.12.egg-info' (and everything under it)
+[2.970s] Copying build/object_detection_ros2/object_detection_ros2.egg-info to /home/i880/programming/ros2/object_detection_ros2/install/object_detection_ros2/lib/python3.12/site-packages/object_detection_ros2-0.0.0-py3.12.egg-info
+[2.972s] running install_scripts
+[3.312s] Installing camera_node script to /home/i880/programming/ros2/object_detection_ros2/install/object_detection_ros2/lib/object_detection_ros2
+[3.313s] Installing object_detection_node script to /home/i880/programming/ros2/object_detection_ros2/install/object_detection_ros2/lib/object_detection_ros2
+[3.314s] writing list of installed files to '/home/i880/programming/ros2/object_detection_ros2/build/object_detection_ros2/install.log'
+[3.379s] Invoked command in '/home/i880/programming/ros2/object_detection_ros2' returned '0': PYTHONPATH=/home/i880/programming/ros2/object_detection_ros2/build/object_detection_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/i880/programming/ros2/object_detection_ros2/install/object_detection_ros2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/object_detection_ros2 build --build-base /home/i880/programming/ros2/object_detection_ros2/build/object_detection_ros2/build install --record /home/i880/programming/ros2/object_detection_ros2/build/object_detection_ros2/install.log --single-version-externally-managed install_data
