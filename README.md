@@ -1,17 +1,16 @@
-Absolutely! A **README file** is the first thing people see when they visit your GitHub repository, so it’s important to make it engaging, informative, and professional. Below is a template for a **fascinating README** for your ROS 2 object detection project using YOLOv8.
 
 ---
 
-# **ROS 2 Object Detection with YOLOv8** 🚀
+# **ROS 2 Object Detection with YOLOv3** 🚀
 
-Welcome to the **ROS 2 Object Detection** project! This repository demonstrates how to perform real-time object detection using **YOLOv8** in a **ROS 2** environment. Whether you're a robotics enthusiast, a computer vision developer, or just curious about AI-powered object detection, this project is for you!
+Welcome to the **ROS 2 Object Detection** project! This repository demonstrates how to perform real-time object detection using **YOLOv3** in a **ROS 2** environment. Whether you're a robotics enthusiast, a computer vision developer, or just curious about AI-powered object detection, this project is for you!
 
 ---
 
 ## **Features** ✨
 
 - **Real-Time Object Detection**: Detect objects in real-time using a camera feed.
-- **YOLOv8 Integration**: Leverage the power of YOLOv8, one of the fastest and most accurate object detection models.
+- **YOLOv3 Integration**: Leverage the power of YOLOv3, a proven and reliable object detection model.
 - **ROS 2 Compatibility**: Seamlessly integrate object detection into your ROS 2 workflows.
 - **Customizable**: Easily adapt the code to detect custom objects or use different YOLO models.
 - **Visualization**: Display bounding boxes and labels directly on the camera feed.
@@ -29,10 +28,10 @@ Welcome to the **ROS 2 Object Detection** project! This repository demonstrates 
 
 ### **Prerequisites**
 Before you begin, ensure you have the following installed:
-- **ROS 2** (tested on Humble or Rolling)
+- **ROS 2** (tested on Jazzy Jalisco)
 - **Python 3.8+**
 - **OpenCV**
-- **Ultralytics YOLOv8** (`pip install ultralytics`)
+- **Darknet YOLOv3** (pre-trained weights and configuration files included)
 
 ### **Installation**
 1. Clone the repository:
@@ -67,9 +66,9 @@ Before you begin, ensure you have the following installed:
    - The names of detected objects are published to the `/detected_object_name` topic.
 
 3. **Customize the Model**:
-   Replace the default YOLOv8 model (`yolov8n.pt`) with your custom-trained model:
+   Replace the default YOLOv3 model (`yolov3-tiny.weights` and `yolov3-tiny.cfg`) with your custom-trained model:
    ```python
-   self.model = YOLO("path/to/your/model.pt")
+   self.net = cv2.dnn.readNet("path/to/your/weights.weights", "path/to/your/config.cfg")
    ```
 
 ---
@@ -81,8 +80,9 @@ object_detection_ros2/
 ├── launch/                  # ROS 2 launch files
 │   └── object_detection.launch.py
 ├── models/                  # YOLO model files
-│   ├── yolov8n.pt
-│   ├── coco.names
+│   ├── yolov3-tiny.weights  # Pre-trained YOLOv3 weights
+│   ├── yolov3-tiny.cfg      # YOLOv3 configuration file
+│   ├── coco.names           # COCO class labels
 ├── object_detection_ros2/   # ROS 2 package source code
 │   ├── camera_node.py       # Camera feed publisher
 │   ├── object_detection_node.py  # Object detection node
@@ -113,7 +113,7 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 ## **Acknowledgments** 🙏
 
-- **Ultralytics** for the amazing YOLOv8 model.
+- **Joseph Redmon** for the original YOLO (You Only Look Once) algorithm.
 - **ROS 2** for providing a robust framework for robotics development.
 - **OpenCV** for making computer vision accessible to everyone.
 
@@ -138,10 +138,11 @@ Happy coding! 🚀
 
 ---
 
-### **How to Use This README**
-1. Replace placeholders (e.g., `your-email@example.com`, `i880`) with your actual information.
-2. Add a demo GIF or screenshot to the **Demo** section.
-3. Update the **Project Structure** section to reflect your actual file structure.
-4. Customize the **Features** and **Usage** sections to highlight what makes your project unique.
+### **Key Changes for YOLOv3**
+1. **Features**: Updated to highlight YOLOv3 instead of YOLOv8.
+2. **Prerequisites**: Removed `ultralytics` and added Darknet YOLOv3.
+3. **Usage**: Updated instructions for using YOLOv3 weights and configuration files.
+4. **Project Structure**: Updated to reflect YOLOv3 model files (`yolov3-tiny.weights`, `yolov3-tiny.cfg`, `coco.names`).
 
-Let me know if you need further assistance! 😊
+---
+
