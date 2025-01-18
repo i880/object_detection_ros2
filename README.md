@@ -19,8 +19,7 @@ Welcome to the **ROS 2 Object Detection** project! This repository demonstrates 
 
 ## **Demo** 🎥
 
-![Object Detection Demo](https://via.placeholder.com/800x400.png?text=Object+Detection+Demo)  
-*Replace this placeholder with a GIF or screenshot of your project in action.*
+![Object Detection Demo](demo.png)  
 
 ---
 
